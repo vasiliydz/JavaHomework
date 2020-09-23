@@ -4,9 +4,13 @@ public class Account {
     private final long id;
     private double balance;
 
-    public Account(long id) {
+    public Account(long id, double balance) {
         this.id = id;
-        this.balance = 0;
+        this.balance = balance;
+    }
+
+    public Account(long id) {
+        this(id, 0);
     }
 
     /**
@@ -18,10 +22,7 @@ public class Account {
      * otherwise returns false
      */
     public boolean withdraw(double amount) {
-        if (amount <= 0) {
-            return false;
-        }
-        if (balance - amount > 0) {
+        if (canWithdraw(amount)) {
             balance -= amount;
             return true;
         }
@@ -40,5 +41,10 @@ public class Account {
             return true;
         }
         return false;
+    }
+
+    private boolean canWithdraw(double amount) {
+        return amount > 0
+                && (balance - amount >= 0);
     }
 }
