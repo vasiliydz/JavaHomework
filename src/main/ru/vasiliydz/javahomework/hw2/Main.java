@@ -1,4 +1,4 @@
-package ru.vasiliydz.javahomework;
+package main.ru.vasiliydz.javahomework.hw2;
 
 public class Main {
 
