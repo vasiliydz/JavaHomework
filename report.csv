@@ -1,0 +1,11 @@
+id,amount,originator,beneficiary,executed,rolledBack
+3314,44.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@4e,true,false
+3340,46.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@68,true,false
+3273,47.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@24,true,false
+3286,48.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@31,true,false
+3303,48.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@43,true,false
+3362,48.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@7e,true,false
+3296,49.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@3b,true,false
+3269,50.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@20,true,false
+3316,50.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@50,true,false
+3354,50.0,main.ru.vasiliydz.javahomework.hw3.DebitCard@40,main.ru.vasiliydz.javahomework.hw3.DebitCard@76,true,false
